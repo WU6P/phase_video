@@ -1,0 +1,10 @@
+# Python 3.13. Also needed: ffmpeg/ffprobe on PATH, and the Cairo/Pango libraries Manim uses.
+manim==0.22.0
+kokoro-onnx==0.6.1
+soundfile==0.14.0
+numpy==2.5.4
+pillow==12.3.0
+segno==1.6.6
+opencv-python-headless==5.0.0.93
+# Chinese narration only. misaki 0.9.4 declares python<3.13 but works on 3.13:
+#   pip install --ignore-requires-python "misaki[zh]==0.9.4"
